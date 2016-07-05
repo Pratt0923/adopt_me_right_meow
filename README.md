@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+things we need
+
+CHECK payment
+CHECK email
+sorta check :) csv
