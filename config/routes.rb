@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-
-  root to: '/users#sign_in'
-
   devise_for :users
   resources :cats do
     resources :charges
