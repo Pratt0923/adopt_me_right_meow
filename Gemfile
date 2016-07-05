@@ -16,6 +16,9 @@ gem 'pundit'
 gem 'better_errors'
 gem 'binding_of_caller'
 gem 'stripe'
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'
 
 
 group :development, :test do
