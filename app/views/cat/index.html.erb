@@ -10,8 +10,11 @@
       <%= cat.name %>
     </div>
     <div class="card-copy">
-      <p><%= cat.name %> is <%= cat.age %> years old and is a <%= cat.breed %>. <%= cat.description %> </p>
+      <p><%= cat.name %> is <%= cat.age %> years old and is a <%= cat.breed %>. <%= cat.description %></p>
     </div>
+    <form action="/cats/<%= cat.id %>/charges/new">
+    <button type="submit">Adopt me!</button>
+  </form>
   </div>
   <% end %>
 </div>

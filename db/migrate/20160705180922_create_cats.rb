@@ -5,6 +5,7 @@ class CreateCats < ActiveRecord::Migration[5.0]
       t.string :description
       t.string :breed
       t.integer :age
+      t.string :price
       t.timestamps
     end
   end
