@@ -7,5 +7,8 @@ Rails.application.routes.draw do
    root to:  "cat#index"
    resources :email
 
-  # For details on the DSL avaislable within this file, see http://guides.rubyonrails.org/routing.html
+   get '/contactus' => 'contactus#index'
+   get '/aboutus'   => 'aboutus#index'
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
 end

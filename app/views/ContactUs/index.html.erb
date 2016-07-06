@@ -1,3 +1,22 @@
+
+<div class="side-image">
+  <div class="images-wrapper"></div>
+    <div class="side-image-content">
+      <h4>Contact Us</h4>
+      <h1></h1>
+      <p>We are located at 318 Blackwell St.<br>
+        Durham, NC 27701<br>
+        Call us at: 867-5309<br>
+        Hours: M-Sa 8AM-9PM
+
+      </p>
+  </div>
+</div>
+
+
+
+
+
 <!--
 Add the code below to the bottom of your page, just before the closing </body> tag.
 Edit myLatlng and the other variables.
@@ -13,12 +32,12 @@ http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html
 https://developers.google.com/maps/documentation/javascript/tutorial
 -->
 
-<!--
-<script src="https://maps.googleapis.com/maps/api/js"></script>
+<div id="map_canvas"></div>
+
 <script>
-  var bittersMap = (function () {
-    var myLatlng = new google.maps.LatLng(59.342457, 18.057340),
-        mapCenter = new google.maps.LatLng(59.340458, 18.057340),
+  var bittersMap = function () {
+    var myLatlng = new google.maps.LatLng(35.994033, -78.898619),
+        mapCenter = new google.maps.LatLng(35.994033, -78.898619),
         mapCanvas = document.getElementById('map_canvas'),
         mapOptions = {
           center: mapCenter,
@@ -65,10 +84,11 @@ https://developers.google.com/maps/documentation/javascript/tutorial
         });
       }
     };
-  }());
+  };
 
-  bittersMap.init();
+  function init() {
+    bittersMap().init();
+  }
 </script>
--->
 
-<div id="map_canvas"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8vsdMhXMMZQU89aMczONbI6eK2DPERPg&callback=init"></script>
