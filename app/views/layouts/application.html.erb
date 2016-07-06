@@ -22,7 +22,7 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Black_Cat_02812_svg_vector_nevit.svg/120px-Black_Cat_02812_svg_vector_nevit.svg.png" alt="Logo image">
               </a>
             </li>
-            <% if current_user && current_user.admin? %>
+            <% if current_user && current_user.admin == true %>
               <%= link_to 'Admin', new_cat_path %>
               <%= button_to 'Sign out', destroy_user_session_path, method: :delete %>
             <% elsif current_user %>
