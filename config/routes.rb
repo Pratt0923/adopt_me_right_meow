@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users
-   resources :cats do
+   resources :cat do
      resources :charges
+     collection { post :import }
    end
-
    root to:  "cat#index"
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  # For details on the DSL avaislable within this file, see http://guides.rubyonrails.org/routing.html
 end
