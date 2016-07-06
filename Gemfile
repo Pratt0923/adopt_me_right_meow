@@ -21,6 +21,7 @@ gem 'bitters'
 gem "refills"
 gem 'figaro'
 gem 'pg'
+gem 'roo'
 
 group :development, :test do
   gem 'byebug', platform: :mri

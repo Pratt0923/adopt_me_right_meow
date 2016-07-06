@@ -22,11 +22,12 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Black_Cat_02812_svg_vector_nevit.svg/120px-Black_Cat_02812_svg_vector_nevit.svg.png" alt="Logo image">
               </a>
             </li>
-            <%if current_user %>
-          <form action="/users/sign_out" method = "DELETE"> <li class="nav-link"><button> Log Out</button></li></form>
+
+            <% if current_user %>
+            <%= button_to 'Sign out', destroy_user_session_path, method: :delete %>
             <% else %>
             <li class="nav-link"><a href="/users/sign_in">Log In</a></li>
-            <%end%>
+            <% end %>
           </ul>
         </nav>
       </div>
