@@ -4,7 +4,6 @@ class CatController < ApplicationController
   end
 
   def new
-
   end
 
   def import

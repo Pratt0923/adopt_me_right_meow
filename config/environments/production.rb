@@ -96,7 +96,4 @@ Rails.application.configure do
     :enable_starttls_auto => true
   }
 }
-#this will go into whatever you controller you have sending the mail for your.
-#Pony.mail(:to => 'you@example.com', :html_body => '<h1>Hello there!</h1>', :body => "In case you can't read html, Hello there.")
-
 end

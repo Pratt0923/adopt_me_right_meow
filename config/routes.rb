@@ -5,6 +5,7 @@ Rails.application.routes.draw do
      collection { post :import }
    end
    root to:  "cat#index"
+   resources :email
 
   # For details on the DSL avaislable within this file, see http://guides.rubyonrails.org/routing.html
 end
