@@ -8,10 +8,9 @@
 * CHECK payment
 * CHECK email
 * CHECK :) csv
+* CAT GIFS!!!!!
 
 #ToDo
-* make from form new cats
-* get cat images for each individual cat
 * sidekiq
 * make more tests
 * rspec or capyabara (maybe?)
