@@ -3,16 +3,17 @@
 #Adopt me right now
 
 
-#things we need
+#things we have
 
-*CHECK payment
-*CHECK email
-*CHECK :) csv
+* CHECK payment
+* CHECK email
+* CHECK :) csv
 
 #ToDo
-*make from form new cats
-*get cat images for each individual cat
-*sidekiq
-*make more tests
-*rspec or capyabara (maybe?)
-*update readme with real information
+* make from form new cats
+* get cat images for each individual cat
+* sidekiq
+* make more tests
+* rspec or capyabara (maybe?)
+* update readme with real information
+* update REST Client to newer version
