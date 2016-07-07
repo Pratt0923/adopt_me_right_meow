@@ -16,3 +16,4 @@
 * make more tests
 * rspec or capyabara (maybe?)
 * update readme with real information
+* update REST Client to newer version
