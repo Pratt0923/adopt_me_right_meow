@@ -3,7 +3,7 @@
 #Adopt me right now
 
 
-#things we need
+#things we have
 
 * CHECK payment
 * CHECK email

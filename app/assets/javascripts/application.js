@@ -10,11 +10,6 @@ $(window).on("load resize",function(e) {
       $("#js-centered-more .submenu .submenu").removeClass("fly-out-right");
       $("#js-centered-more .submenu .submenu").addClass("fly-out-left");
     }
-
-    if (moreLeftSideToPageRightSide > 330) {
-      $("#js-centered-more .submenu .submenu").removeClass("fly-out-left");
-      $("#js-centered-more .submenu .submenu").addClass("fly-out-right");
-    }
   }
 
   var menuToggle = $("#js-centered-navigation-mobile-menu").unbind();
