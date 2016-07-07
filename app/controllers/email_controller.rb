@@ -5,10 +5,10 @@ class EmailController < ApplicationController
 
   def create
     Pony.mail(
-    :to => params[:Email],
-    :html_body => '<h1>Hello there!</h1>',
-    :body => "In case you can't read html, Hello there."
+    :to => 'snubly1@gmail.com',
+    :from => 'snubly1@gmail.com',
+    :subject => 'hi',
+    :body => 'Hello there.'
     )
-
   end
 end
