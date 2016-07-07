@@ -4,11 +4,21 @@ class EmailController < ApplicationController
   end
 
   def create
-    Pony.mail(
-    :to => 'snubly1@gmail.com',
-    :from => 'snubly1@gmail.com',
-    :subject => 'hi',
-    :body => 'Hello there.'
-    )
+    if params[:subscribe] == "yes"
+      current_user.subscription = true
+    end
   end
 end
+
+
+# if Time.now.wday == 1
+#   @validusers = User.where(subscription: true)
+#   @validusers.all.each do |user|
+#     Pony.mail(
+#     :to => "#{user.email}",
+#     :from => 'Adoptme@meow.com',
+#     :subject => 'Cats!',
+#     :body => 'Hello there, some cats are ready for adoption.'
+#     )
+#   end
+# end

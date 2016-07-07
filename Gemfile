@@ -23,10 +23,13 @@ gem 'figaro'
 gem 'pg'
 gem 'roo'
 gem 'pony'
+gem 'rspec-rails'
+gem 'capybara-rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'sqlite3'
+  gem 'simplecov'
 end
 
 group :development do
