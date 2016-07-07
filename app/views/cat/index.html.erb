@@ -15,6 +15,9 @@
     <form action="/cat/<%= cat.id %>/charges/new">
     <button type="submit">Adopt me!</button>
   </form>
+  <% if policy(cat).destroy? %>
+    <%= button_to 'X', cat_path(cat), method: :delete %>
+  <% end %>
   </div>
   <% end %>
 </div>

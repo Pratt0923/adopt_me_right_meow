@@ -4,3 +4,25 @@
   <%= file_field_tag :file %>
   <%= submit_tag "Import" %>
 <% end %>
+
+
+<h2>add your own cat</h2>
+<%= form_for :cat, url: cat_index_path, method: :post do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :description %>
+  <%= f.text_area :description %>
+
+  <%= f.label :breed  %>
+  <%= f.text_field :breed %>
+
+  <%= f.label :age %>
+  <%= f.text_field :age %>
+
+  <%= f.label :price %>
+  <%= f.text_field :price %>
+
+  <%= submit_tag "Add Cat" %>
+
+<% end %>

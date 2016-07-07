@@ -18,7 +18,8 @@ end
 #     :to => "#{user.email}",
 #     :from => 'Adoptme@meow.com',
 #     :subject => 'Cats!',
-#     :body => 'Hello there, some cats are ready for adoption.'
+#     :body => 'Hello there, some cats are ready for adoption. cat info here.'
 #     )
 #   end
 # end
+#heroku scheduler
