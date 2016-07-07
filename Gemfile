@@ -25,6 +25,8 @@ gem 'roo'
 gem 'pony'
 gem 'rspec-rails'
 gem 'capybara-rails'
+gem 'sidekiq'
+
 
 group :development, :test do
   gem 'byebug', platform: :mri
