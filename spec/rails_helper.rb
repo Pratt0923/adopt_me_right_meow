@@ -64,4 +64,11 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+
+  config.include Devise::TestHelpers, :type => :controller
+   config.before :each, type: :controller do
+     @request.env["devise.mapping"] = Devise.mappings[:user]
+   end
+
+
 end

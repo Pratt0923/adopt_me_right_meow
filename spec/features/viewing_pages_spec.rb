@@ -25,6 +25,7 @@ feature "viewing pages", type: :feature do
     expect(page).to have_content "Log In"
     # expect(page).to have_content "bubbles"
 
+
     click_on "About Us"
     expect(page).to have_content "Hodor"
 
@@ -34,6 +35,10 @@ feature "viewing pages", type: :feature do
     click_on "Subscribe"
     expect(page).to have_content "Subscribe to updates"
 
+  end
+
+  context 'when logged in' do
+    it { is_expected.to respond_with 200 }
   end
 
   it "can look at pages with being logged in" do

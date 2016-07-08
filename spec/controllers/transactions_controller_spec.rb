@@ -14,8 +14,8 @@ require 'spec_helper'
 # end
 
 
-describe TransactionController do
-  it '' do
-
-  end
-end
+# describe TransactionController do
+#   it 'lets transactions save to csv file' do
+#
+#   end
+# end
