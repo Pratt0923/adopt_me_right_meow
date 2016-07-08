@@ -12,7 +12,6 @@ class CatPolicy
     else
       false
     end
-  end
 
   def show
     true

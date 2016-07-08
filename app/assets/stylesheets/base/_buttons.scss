@@ -1,6 +1,6 @@
 #{$all-buttons} {
   appearance: none;
-  background-color: $action-color;
+  background-color: #7CA299;
   border: 0;
   border-radius: $base-border-radius;
   color: #fff;
@@ -9,7 +9,7 @@
   font-family: $base-font-family;
   font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 1;
   padding: $small-spacing $base-spacing;
   text-decoration: none;
@@ -17,11 +17,11 @@
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  margin: 10px;
+  margin: 5px;
 
   &:hover,
   &:focus {
-    background-color: shade($action-color, 20%);
+    background-color: shade(#7CA299, 20%);
     color: #fff;
   }
 

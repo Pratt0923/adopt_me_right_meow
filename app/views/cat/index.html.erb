@@ -13,7 +13,7 @@
       <p><%= cat.name %> is <%= cat.age %> years old and is a <%= cat.breed %>. <%= cat.description %></p>
     </div>
     <form action="/cat/<%= cat.id %>/charges/new">
-    <button type="submit">Adopt me!</button>
+    <button class = button type="submit">Adopt me!</button>
   </form>
   <% if policy(cat).destroy? %>
     <%= button_to 'X', cat_path(cat), method: :delete %>
