@@ -5,7 +5,9 @@ class EmailController < ApplicationController
 
   def create
     if params[:subscribe] == "yes"
-      current_user.subscription = true
+      user = current_user
+      user.subscription = true
+      user.save!
     end
   end
 end

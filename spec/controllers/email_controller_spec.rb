@@ -1,9 +1,18 @@
 require 'rails_helper'
 require 'spec_helper'
 
-# need this to pass
-# def create
-#   if params[:subscribe] == "yes"
-#     current_user.subscription = true
-#   end
-# end
+
+describe EmailController do
+  it 'can add users to the subscription list' do
+    user = create :user
+    sign_in user
+    post :create, {
+      :subscribe => "yes"
+    }
+    user.reload
+    expect(user.subscription).to eq(true)
+
+  end
+
+
+end
