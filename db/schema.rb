@@ -11,7 +11,6 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 20160706193431) do
-
   create_table "cats", force: :cascade do |t|
     t.string   "name"
     t.string   "description"
