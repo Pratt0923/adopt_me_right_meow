@@ -4,8 +4,22 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+bubbles:
+  id: 1
+  name: bubbles
+  description: this is a cat
+  breed: tabby
+  age: 23
+  price: "200.00"
+  created_at: Fri, 08 Jul 2016 12:58:26 UTC +00:00
+  updated_at: Fri, 08 Jul 2016 12:58:26 UTC +00:00
+
+fred:
+  id: 2
+  name: fred
+  description: this is another cat
+  breed: shorthair
+  age: 12
+  price: "100.00"
+  created_at: Fri, 08 Jul 2016 12:58:26 UTC +00:00
+  updated_at: Fri, 08 Jul 2016 12:58:26 UTC +00:00

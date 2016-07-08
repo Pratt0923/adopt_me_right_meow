@@ -26,6 +26,7 @@ gem 'pony'
 gem 'rspec-rails'
 gem 'capybara-rails'
 gem 'sidekiq'
+gem 'factory_girl_rails'
 
 
 group :development, :test do
