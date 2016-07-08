@@ -27,6 +27,7 @@ gem 'rspec-rails'
 gem 'capybara-rails'
 gem 'sidekiq'
 gem 'factory_girl_rails'
+gem 'roo-xls'
 
 
 group :development, :test do
