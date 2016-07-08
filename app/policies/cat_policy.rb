@@ -10,6 +10,10 @@ class CatPolicy
     user.admin == true
   end
 
+  def show
+    true
+  end
+
 
 
 end

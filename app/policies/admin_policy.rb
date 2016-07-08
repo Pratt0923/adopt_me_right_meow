@@ -7,6 +7,10 @@ class AdminPolicy
     is_admin?
   end
 
+  def show
+    true
+  end
+
   private
   def is_admin?
     user.admin == true
