@@ -1,7 +1,6 @@
 class CatController < ApplicationController
 
   def index
-    raise
   end
 
   def new

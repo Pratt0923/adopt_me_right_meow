@@ -7,7 +7,11 @@ class CatPolicy
   end
 
   def destroy?
-    user.admin == true
+    if user
+    user.admin?
+    else
+      false
+    end
   end
 
   def show
