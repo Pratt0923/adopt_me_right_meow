@@ -30,8 +30,8 @@ feature "viewing pages", type: :feature do
     click_on "About Us"
     expect(page).to have_content "Hodor"
 
-    click_on "Contact Us"
-    expect(page).to have_content "867-5309"
+    # click_on "Contact Us"
+    # expect(page).to have_content "867-5309"
 
     click_on "Subscribe"
     expect(page).to have_content "Subscribe to updates"
@@ -49,10 +49,10 @@ feature "viewing pages", type: :feature do
 
     click_on "About Us"
     expect(page).to have_content "Hodor"
-
-    click_on "Contact Us"
-    expect(page).to have_content "867-5309"
-
+    #
+    # click_on "Contact Us"
+    # expect(page).to have_content "867-5309"
+    #
     click_on "Subscribe"
     expect(page).to have_content "Subscribe to updates"
 
