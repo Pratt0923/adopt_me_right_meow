@@ -18,7 +18,9 @@ describe CatController do
     cat = create(:cat)
     post :destroy, {:id => 1
     }
+
     expect(Cat.count).to eq(0)
+
   end
 
   it 'lets users import csv' do
