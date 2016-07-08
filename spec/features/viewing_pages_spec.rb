@@ -37,9 +37,7 @@ feature "viewing pages", type: :feature do
 
   end
 
-  context 'when logged in' do
-    it { is_expected.to respond_with 200 }
-  end
+
 
   it "can look at pages with being logged in" do
 
