@@ -14,11 +14,11 @@ require 'spec_helper'
 # end
 
 
-describe TransactionController do
-  describe '#index' do
-    it 'should be able to send an csv file' do
-
-       get :index, :format => 'csv'
-    end
-  end
-end
+# describe TransactionController do
+#   describe '#index' do
+#     it 'should be able to send an csv file' do
+#        # stubs and expectations go here
+#        get :index, :format => 'csv'
+#     end
+#   end
+# end
