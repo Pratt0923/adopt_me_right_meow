@@ -33,8 +33,8 @@ feature "viewing pages", type: :feature do
     # click_on "Contact Us"
     # expect(page).to have_content "867-5309"
 
-    click_on "Subscribe"
-    expect(page).to have_content "Subscribe to updates"
+    # click_on "Subscribe"
+    # expect(page).to have_content "Subscribe to updates"
 
   end
 
@@ -53,8 +53,8 @@ feature "viewing pages", type: :feature do
     # click_on "Contact Us"
     # expect(page).to have_content "867-5309"
     #
-    click_on "Subscribe"
-    expect(page).to have_content "Subscribe to updates"
+    # click_on "Subscribe"
+    # expect(page).to have_content "Subscribe to updates"
 
     # find_button('Sign out').click
 
