@@ -2,7 +2,7 @@ require 'rails_helper'
 require 'spec_helper'
 
 
-need this to pass
+# need this to pass
 # class ChargesController < ApplicationController
 #   def new
 #     @cat = Cat.find(params[:cat_id])

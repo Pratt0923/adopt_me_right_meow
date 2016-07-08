@@ -24,11 +24,9 @@ class CatController < ApplicationController
   end
 
   def destroy
-    if current_user.admin?
-      @cat = Cat.find(params[:id])
-      @cat.destroy
-      redirect_to root_path, notice: "Cat found forever home!"
-    end
+    @cat = Cat.find(params[:id])
+    @cat.destroy
+    redirect_to root_path, notice: "Cat found forever home!"
   end
 
 end
