@@ -14,8 +14,11 @@ require 'spec_helper'
 # end
 
 
-# describe TransactionController do
-#   it 'lets transactions save to csv file' do
-#
-#   end
-# end
+describe TransactionController do
+  describe '#index' do
+    it 'should be able to send an csv file' do
+
+       get :index, :format => 'csv'
+    end
+  end
+end

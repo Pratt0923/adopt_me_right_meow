@@ -16,10 +16,8 @@ describe CatController do
 
   it 'lets cats be destroyed' do
     cat = create(:cat)
-    binding.pry
     post :destroy, {:id => 1
     }
-    binding.pry
   end
 
 end
