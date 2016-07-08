@@ -3,7 +3,7 @@ require 'rails_helper'
 
 feature "viewing pages", type: :feature do
   def make_user
-    User.create! email: "user@example.com", password: "hunter2"
+    User.create! email: "mary.e.howellstudios@gmail.com", password: "hunter2"
   end
 
   def log_in user=nil
@@ -42,9 +42,6 @@ feature "viewing pages", type: :feature do
 
     visit "/"
 
-
-    # expect(page).to have_content "bubbles"
-
     click_on "About Us"
     expect(page).to have_content "Hodor"
 
@@ -54,7 +51,7 @@ feature "viewing pages", type: :feature do
     click_on "Subscribe"
     expect(page).to have_content "Subscribe to updates"
 
-    # find_button('Sign out').click
+    find_button('Sign out').click
 
   end
 
@@ -65,9 +62,9 @@ feature "viewing pages", type: :feature do
 
     visit "/"
 
-    # click_on "Admin"
-    # expect(page).to have_content "Import"
-    # expect(page).to have_content "Add Cat"
+    click_on "Admin"
+    expect(page).to have_content "Import"
+    expect(page).to have_content "Add Cat"
 
   end
 
