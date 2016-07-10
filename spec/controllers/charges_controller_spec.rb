@@ -8,30 +8,24 @@ describe ChargesController do
   #   end
 
   it 'can find cat price' do
-    get :cat
-
-    params = {
-      :name => "name",
-      :description => "description",
-      :breed => "breed", :price => "100.00",
-      :age => 2
-
-    }
-
-    # post :create, {
-    #   :cat => {
-    #     :name => "name",
-    #     :description => "description",
-    #     :breed => "breed", :price => "100.00",
-    #     :age => 2
-    #   }}
-
-      expect(Cat.first.price).to eq("100.00")
+    # get :cat
+    #
+    # params = {
+    #   :name => "name",
+    #   :description => "description",
+    #   :breed => "breed", :price => "100.00",
+    #   :age => 2
+    #
+    # }
+    #
+    #   expect(Cat.first.price).to eq("100.00")
 
     end
 
 
-  #
+    it 'can purchase a cat'
+
+  end
   #   def create
   #     @cat = Cat.find(params[:cat_id])
   #     @amount = @cat.price
@@ -53,7 +47,8 @@ describe ChargesController do
   #     redirect_to new_charge_path
   #   end
   # end
-
+it ' will rescue from rejected card'
+end
 
 
 
