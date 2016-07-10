@@ -7,7 +7,7 @@ describe ChargesController do
   #     @cat = Cat.find(params[:cat_id])
   #   end
 
-  it 'can find cat price' do
+    it 'can find cat price' do
     # get :cat
     #
     # params = {
@@ -22,10 +22,10 @@ describe ChargesController do
 
     end
 
-
-    it 'can purchase a cat'
-
-  end
+    # 
+    # it 'can purchase a cat'
+    #
+    # end
   #   def create
   #     @cat = Cat.find(params[:cat_id])
   #     @amount = @cat.price
@@ -47,8 +47,10 @@ describe ChargesController do
   #     redirect_to new_charge_path
   #   end
   # end
-it ' will rescue from rejected card'
-end
+  # it ' will rescue from rejected card'
+  #
+  #
+  # end
 
 
 
