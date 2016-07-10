@@ -13,9 +13,8 @@
 * CHECK email
 * CHECK :) csv
 * CAT GIFS!!!!!
+* Good test coverage!
 
-#ToDo
-* sidekiq
-* make more tests
-* rspec or capyabara (maybe?)
-* update readme with real information
+***
+
+> Welcome to adopt-me-right-meow! Have a look around our wonderful website and see if there are any kittens you would like to buy.  You may purchase one with any major credit card ;).  
