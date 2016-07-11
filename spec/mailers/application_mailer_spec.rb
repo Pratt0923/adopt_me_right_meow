@@ -1,5 +1,6 @@
+require 'rails_helper'
+require 'spec_helper'
+
 describe ApplicationMailer do
-  it 'lets mail be sent out with the default layout' do
-    
-  end
+
 end
