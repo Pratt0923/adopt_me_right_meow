@@ -34,7 +34,7 @@ describe ChargesController do
   #       :email => params[:stripeEmail],
   #       :source  => params[:stripeToken]
   #     )
-  # #we need to change our token because apparently you cant use a stripe token more then once. stupid rules
+  
   #     charge = Stripe::Charge.create(
   #       :customer    => customer.id,
   #       :amount      => @amount.to_i,
@@ -42,12 +42,14 @@ describe ChargesController do
   #       :currency    => 'usd'
   #     )
   #
-  #   rescue Stripe::CardError => e
-  #     flash[:error] = e.message
-  #     redirect_to new_charge_path
-  #   end
-  # end
+
   it ' will rescue from rejected card' do
+
+    #   rescue Stripe::CardError => e
+    #     flash[:error] = e.message
+    #     redirect_to new_charge_path
+    #   end
+    # end
 
 
   end
