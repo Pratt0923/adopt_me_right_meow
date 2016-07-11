@@ -3,10 +3,6 @@ require 'spec_helper'
 
 describe ChargesController do
 
-  #   def new
-  #     @cat = Cat.find(params[:cat_id])
-  #   end
-
     it 'can find cat price' do
     # get :cat
     #
@@ -34,7 +30,7 @@ describe ChargesController do
   #       :email => params[:stripeEmail],
   #       :source  => params[:stripeToken]
   #     )
-  
+
   #     charge = Stripe::Charge.create(
   #       :customer    => customer.id,
   #       :amount      => @amount.to_i,

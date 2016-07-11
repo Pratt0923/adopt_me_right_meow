@@ -11,8 +11,5 @@ describe EmailController do
     }
     user.reload
     expect(user.subscription).to eq(true)
-
   end
-
-
 end

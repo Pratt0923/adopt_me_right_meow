@@ -11,7 +11,6 @@ class ChargesController < ApplicationController
       :email => params[:stripeEmail],
       :source  => params[:stripeToken]
     )
-#we need to change our token because apparently you cant use a stripe token more then once. stupid rules
     charge = Stripe::Charge.create(
       :customer    => customer.id,
       :amount      => @amount.to_i,

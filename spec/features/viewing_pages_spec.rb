@@ -24,17 +24,9 @@ feature "viewing pages", type: :feature do
     visit "/"
 
     expect(page).to have_content "Log In"
-    # expect(page).to have_content "bubbles"
-
 
     click_on "About Us"
     expect(page).to have_content "Hodor"
-
-    # click_on "Contact Us"
-    # expect(page).to have_content "867-5309"
-
-    # click_on "Subscribe"
-    # expect(page).to have_content "Subscribe to updates"
 
   end
 
@@ -43,32 +35,7 @@ feature "viewing pages", type: :feature do
   it "can look at pages with being logged in" do
 
     visit "/"
-    # click_on "Log in"
-    #
-    # log_in
-
     click_on "About Us"
     expect(page).to have_content "Hodor"
-    #
-    # click_on "Contact Us"
-    # expect(page).to have_content "867-5309"
-    #
-    # click_on "Subscribe"
-    # expect(page).to have_content "Subscribe to updates"
-
-    # find_button('Sign out').click
-
   end
-
-
-  it "can look at pages with being Admin" do
-
-    visit "/"
-
-
-    # expect(page).to have_content "Import"
-    # expect(page).to have_content "Add Cat"
-
-  end
-
 end
